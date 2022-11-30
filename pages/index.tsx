@@ -19,8 +19,9 @@ const Home: NextPage = () => {
       connection.getAccountInfo(key).then((executable) => {
         let exec = executable.executable
         console.log(exec)
+        
 
-        document.getElementById('executable').innerHTML = exec
+        document.getElementById('executable').innerHTML = `${exec}`
       })  
 
 
