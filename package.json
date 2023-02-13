@@ -9,7 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@solana/web3.js": "^1.39.1",
+    "@project-serum/borsh": "^0.2.5",
+    "@solana/web3.js": "^1.70.3",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0"
